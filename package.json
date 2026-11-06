@@ -1,0 +1,12 @@
+{
+  "name": "proyecto-ci",
+  "version": "1.0.0",
+  "description": "Proyecto de ejemplo para CI/CD y Pruebas Unitarias",
+  "main": "utils.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
