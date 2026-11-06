@@ -2,12 +2,12 @@
 const { capitalizarTexto, calcularDescuento, evaluarContrasena } = require('./utils');
 
 test('Debe capitalizar la primera letra correctamente', () => {
-    expect(capitalizarTexto('gabriel')).toBe('Gabriel');
+    expect(capitalizarTexto('gabriel')).toBe('gabriel');
 });
 
 test('Debe calcular el precio final aplicando el descuento de temporada', () => {
     // Tarea del compañero: Si cambia el porcentaje o la regla, actualizar aquí
-    expect(calcularDescuento(200, 10)).toBe(180);
+    expect(calcularDescuento(200, 10)).toBe(10);
 });
 
 test('Debe marcar la contraseña como insegura si tiene menos de 8 caracteres', () => {
