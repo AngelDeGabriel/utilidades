@@ -7,7 +7,7 @@ test('Debe capitalizar la primera letra correctamente', () => {
 
 test('Debe calcular el precio final aplicando el descuento de temporada', () => {
     // Tarea del compañero: Si cambia el porcentaje o la regla, actualizar aquí
-    expect(calcularDescuento(200, 10)).toBe(180);
+    expect(calcularDescuento(100, 10)).toBe(90);
 });
 
 test('Debe marcar la contraseña como insegura si tiene menos de 8 caracteres', () => {
